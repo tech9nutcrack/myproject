@@ -1,0 +1,1 @@
+web: gunicorn myproject.wsgl --log-file -

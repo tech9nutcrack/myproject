@@ -12,14 +12,25 @@
             padding: 0;
         }
     </style> -->
-   <link rel="stylesheet" href="{% static 'css/first.css' %}">
+
+   <link rel="stylesheet" type="text/css" href="{% static 'css/first.css' %}">
 </head>
 <body>
-    <h1>Login Page</h1>
-    <br>
-    Username: <input type="text"><br><br>
-    Password: <input type="password"><br><br>
-    <button>Hello</button><br><br>
-    <input type="submit" name="Submit">
+    <center>
+        <div class="container-fluid">
+            <p>This is the login page</p>
+            <div class="">
+                <p>Row Class</p>
+                <div></div>
+            </div>
+        </div>
+        <h1>Login Page</h1>
+        <br>
+        Username: <input type="text"><br><br>
+        Password: <input type="password"><br><br>
+        <button type="button" onclick="alert('Hello, this is Shambu, from Dholakpur')">Hello</button><br><br>
+        <button type="button" class="btn btn-primary">Primary</button><br><br>
+        <input type="submit" name="Submit">
+    </center>
 </body>
 </html>

@@ -1,9 +1,10 @@
 body{
-    background-color: darkslategrey;
+    background-color: rgb(39, 216, 216);
     box-align: center;
 }
 
 h1{
-    color: aqua;
-    border: 3px solid palevioletred;
+    color: rgb(255, 38, 0);
+    border: 6px solid wheat;
+
 }
